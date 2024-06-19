@@ -1,0 +1,22 @@
+var preguntasId = 1
+class laPregunta {
+    constructor(pregunta, respuestaId) {
+        this.pregunta = pregunta,
+            this.usuarios = [usuarioId],
+            this.modificaciones = [],
+            this.id = respuestaId,
+            respuestaId++;
+    }
+    agregrarPregunta(idUsuario, laPregunta) {
+        this.modificaciones.push(new Modificacion(idUsuario,laPregunta))
+    }
+    agregarUsuario(idUsuario){
+        this.usuarios.push(idUsuario)
+        return true
+    }
+}
+const preguntas = [
+    new laPregunta ("¿como se llama el ultimo hit de wanda nara?"),
+    new laPregunta ("¿cual de estas parejas de youtubers ya no esta en una relacion?"),
+    new laPregunta ("¿quien de estos jugadores de la seleccion argentina fue infiel?"),
+]
